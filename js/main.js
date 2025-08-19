@@ -93,7 +93,7 @@ const toggle = document.getElementById('menu-toggle');
 
 
 //js za index.html
-if(location.pathname == "/Meteor/index.html"){
+if(location.pathname == "/Meteor/index.html" || location.pathname == "/Meteor/"){
 
   //dinamicki ispis fun-fact elemenata
   var tekstCountera = new Array("Subscribers", "Made Recipes", "Happy Clients", "Total Awards");
@@ -627,4 +627,5 @@ if(karakter == splitImeAuthora.length)
   }
 
 }
+
 
