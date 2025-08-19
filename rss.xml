@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>file:///C:/Users/Bojan/OneDrive/Desktop/moj%20sajt/index.html</loc>
+<loc>https://duxann.github.io/Meteor/index.html</loc>
 <lastmod>2025-19-08</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.9</priority>
 </url>
 <url>
-<loc>file:///C:/Users/Bojan/OneDrive/Desktop/moj%20sajt/author.html</loc>
+<loc>https://duxann.github.io/Meteor/author.html</loc>
 <lastmod>2025-19-08</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
+
 </urlset>
