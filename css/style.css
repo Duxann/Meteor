@@ -1087,4 +1087,13 @@ body.lb-disable-scrolling {
 .indeks
 {
 	color:#a2cf8d;
+
+}
+.senka
+{
+	box-shadow: 0px 0px 20px 0px black;
+}
+.senka2
+{
+	box-shadow:0px 0px 20px 0px gray;
 }
