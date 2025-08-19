@@ -312,6 +312,9 @@ else
 
               document.getElementById("chbox").nextElementSibling.classList.add("prikazi");
               document.getElementById("chbox").nextElementSibling.classList.add("sakrij");
+
+                document.getElementById("next").nextElementSibling.classList.add("sakrij");
+              document.getElementById("next").nextElementSibling.classList.remove("prikazi");
             }, 5000)
             if(document.getElementById("prosledjeno").classList.contains("prikazi"))
           {
@@ -360,6 +363,8 @@ blokTextArea.addEventListener("input", function()
 {
         var i = 200;
         i -= blokTextArea.value.length;
+        document.getElementById("next").nextElementSibling.classList.add("prikazi");
+        document.getElementById("next").nextElementSibling.classList.remove("sakrij");
         document.getElementById("broj").innerHTML = i;
         
         if(blokTextArea.value.length >= maxCharsInArea || i == 0)
@@ -655,3 +660,4 @@ if(karakter == splitImeAuthora.length)
     }
   }
 }
+
