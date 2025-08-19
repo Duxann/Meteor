@@ -60,7 +60,7 @@ ddl2.appendChild(selekt2);
 
 //dinamicki navMeni
 var nizMenija = new Array("Home", "What we Do", "Masterpieces", "Fun Facts", "Contact", "Author");
-var nizMenijaPutanja = ["index.html#", "index.html#about", "index.html#masterpieces", "index.html#fun-facts", "index.html#contact", "author.html"];
+var nizMenijaPutanja = ["index.html#r", "index.html#about", "index.html#masterpieces", "index.html#fun-facts", "index.html#contact", "author.html"];
 
 
 var meni = document.querySelector("nav");
@@ -289,7 +289,29 @@ else
             console.log("Forma je proslednjena.");
             setTimeout(function()
             {
-                blokForme.submit();
+              
+                blokForme.reset();
+                unlockElementsForme(prosledi, blokIme);    
+                unlockElementsForme(prosledi, blokEmail);
+                unlockElementsForme(prosledi, blokTextArea);
+                unlockElementsForme(prosledi, blokDdl);
+                if(document.getElementById("prosledjeno").classList.contains("prikazi"))
+          {
+              document.getElementById("form-submit").removeAttribute("disabled");
+          }
+          if(document.getElementById("prosledjeno").classList.contains("prikazi"))
+          {
+              document.getElementById("l").removeAttribute("disabled");
+          }
+            if(document.getElementById("prosledjeno").classList.contains("prikazi"))
+          {
+              document.getElementById("prosledjeno").classList.remove("prikazi");
+          }
+              document.getElementById("form-submit").setAttribute("disabled", "true");
+
+
+              document.getElementById("chbox").nextElementSibling.classList.add("prikazi");
+              document.getElementById("chbox").nextElementSibling.classList.add("sakrij");
             }, 5000)
             if(document.getElementById("prosledjeno").classList.contains("prikazi"))
           {
@@ -320,6 +342,13 @@ function lockElementsForme(prosledjeno, toPolje)
     if(prosledjeno.classList.contains("prikazi"))
       {
           toPolje.setAttribute("disabled", "true");
+      }
+}
+function unlockElementsForme(prosledjen, otPolje)
+{
+  if(prosledjen.classList.contains("prikazi"))
+      {
+          otPolje.removeAttribute("disabled");
       }
 }
 
@@ -625,8 +654,4 @@ if(karakter == splitImeAuthora.length)
    
     }
   }
-
 }
-
-
-
