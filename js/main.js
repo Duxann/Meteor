@@ -60,7 +60,7 @@ ddl2.appendChild(selekt2);
 
 //dinamicki navMeni
 var nizMenija = new Array("Home", "What we Do", "Masterpieces", "Fun Facts", "Contact", "Author");
-var nizMenijaPutanja = ["index.html#r", "index.html#about", "index.html#masterpieces", "index.html#fun-facts", "index.html#contact", "author.html"];
+var nizMenijaPutanja = ["index.html", "index.html#about", "index.html#masterpieces", "index.html#fun-facts", "index.html#contact", "author.html"];
 
 
 var meni = document.querySelector("nav");
@@ -660,6 +660,7 @@ if(karakter == splitImeAuthora.length)
     }
   }
 }
+
 
 
 
