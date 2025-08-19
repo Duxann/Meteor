@@ -626,7 +626,7 @@ else
   {
 var kutija = document.getElementById("centralni");
 var paketSlika = document.getElementById("slikaAuthora");
-kutija.classList.add("senka");
+paketSlika.classList.add("senka");
 kutija.classList.add("senka2");
 //animacija za imeAutora
 var imeAuthora = document.querySelector("#autor");
@@ -664,6 +664,7 @@ if(karakter == splitImeAuthora.length)
     }
   }
 }
+
 
 
 
