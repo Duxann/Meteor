@@ -516,13 +516,13 @@ var receptZaSvakuSliku =
 "Ingredients (makes ~8 pancakes)<br/>1 tbsp sugar (or honey)<br/>1 tsp baking powder<br/>½ tsp baking soda<br/>Pinch of salt<br/>1 cup milk + 1 tsp lemon juice, let sit 5 mins<br/>1 large ripe banana (mashed)<br/>1 egg",
 "Ingredients (makes ~6 pancakes)<br/>2 tbsp sugar<br/>1 tsp baking powder<br/>½ tsp baking soda<br/>Pinch of salt<br/>¾ cup milk (any kind)<br/>1 large egg<br/>2 tbsp melted butter (plus extra for pan)",
 "Ingredients (makes ~6 pancakes)<br/>2 tbsp cocoa powder<br/>2 tbsp sugar<br/>1 tsp baking powder<br/>½ tsp baking soda<br/>Pinch of salt<br/>¾ cup buttermilk (or ¾ cup milk + 1 tsp lemon juice, let sit 5 mins)",
-"Ingredients (makes ~12 mini pancakes)<br/>2 tbsp sugar<br/>1 tsp baking powder<br/>½ tsp baking soda<br/>Pinch of salt<br/>¾ cup milk (any kind)<br/>1 large egg<br/>2 tbsp melted butter (plus extra for pan)",
-"Ingredients (makes ~6 mini pyramids)<br/>3 tbsp cocoa powder<br/>2 tbsp sugar<br/>1 tsp baking powder<br/>½ tsp baking soda<br/>¾ cup milk<br/>1 large egg<br/>2 tbsp melted butter (plus extra for pan)", 
-"Ingredients (makes ~6–8 pancakes)<br/>2 tbsp sugar<br/>1 tsp baking powder<br/>½ tsp baking soda<br/>Pinch of salt<br/>¾ cup milk (any kind)<br/>1 large egg<br/>3 tbsp unsalted butter, melted (plus extra for pan)",
+"Ingredients (makes ~12 mini pancakes)<br/>2 tbsp sugar<br/>1 tsp baking powder<br/>½ tsp baking soda<br/>Pinch of salt<br/>¾ cup milk (any kind)<br/>1 large egg",
+"Ingredients (makes ~6 mini pyramids)<br/>3 tbsp cocoa powder<br/>2 tbsp sugar<br/>1 tsp baking powder<br/>½ tsp baking soda<br/>¾ cup milk<br/>1 large egg", 
+"Ingredients (makes ~6–8 pancakes)<br/>2 tbsp sugar<br/>1 tsp baking powder<br/>½ tsp baking soda<br/>Pinch of salt<br/>¾ cup milk (any kind)<br/>1 large egg",
 "Ingredients (makes ~6 pancakes)<br/>1 scoop vanilla or chocolate protein powder (~30g)<br/>1 tsp baking powder<br/>Pinch of salt<br/>1 tsp cinnamon (optional)<br/>1 cup milk (dairy or plant-based)<br/>2 large eggs",
-"Ingredients (makes ~6 pancakes)<br/>2 tbsp sugar<br/>1 tsp baking powder<br/>¾ cup milk<br/>2 tbsp melted butter (plus extra for pan)<br/>½ cup mixed fresh or frozen fruit (berries, chopped apple, or banana)",
-"Ingredients (makes ~6 pancakes)<br/>3 tbsp cocoa powder<br/>2 tbsp sugar<br/>1 tsp baking powder<br/>½ tsp baking soda<br/>Pinch of salt<br/>¾ cup milk (any kind)<br/>2 tbsp melted butter (plus extra for pan)",
-"Ingredients (makes ~6-8 pancakes)<br/>2 tbsp sugar<br/>1 tsp baking powder<br/>½ tsp baking soda<br/>Pinch of salt<br/>¾ cup milk<br/>2 tbsp melted butter (plus extra for pan)<br/>1 tsp vanilla extract"
+"Ingredients (makes ~6 pancakes)<br/>2 tbsp sugar<br/>1 tsp baking powder<br/>¾ cup milk<br/>2 tbsp melted butter (plus extra for pan)",
+"Ingredients (makes ~6 pancakes)<br/>3 tbsp cocoa powder<br/>2 tbsp sugar<br/>1 tsp baking powder<br/>½ tsp baking soda<br/>Pinch of salt<br/>¾ cup milk (any kind)<br/>2 tbsp melted butter",
+"Ingredients (makes ~6-8 pancakes)<br/>2 tbsp sugar<br/>1 tsp baking powder<br/>½ tsp baking soda<br/>Pinch of salt<br/>¾ cup milk<br/>2 tbsp melted butter (plus extra for pan)"
 ];
 //dinamicke slike
 var slikoDrzac = document.querySelector(".galerija");
@@ -660,6 +660,7 @@ if(karakter == splitImeAuthora.length)
     }
   }
 }
+
 
 
 
