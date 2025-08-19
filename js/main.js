@@ -624,6 +624,10 @@ for(var i = 0; nizSrcSlika.length > i; i++)
 }
 else
   {
+var kutija = document.getElementById("centralni");
+var paketSlika = document.getElementById("slikaAuthora");
+kutija.classList.add("senka");
+kutija.classList.add("senka2");
 //animacija za imeAutora
 var imeAuthora = document.querySelector("#autor");
 var imeAuthoraText = imeAuthora.textContent;
@@ -660,6 +664,7 @@ if(karakter == splitImeAuthora.length)
     }
   }
 }
+
 
 
 
